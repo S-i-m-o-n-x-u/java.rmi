@@ -16,6 +16,7 @@ java.rmi.ConnectException: Connection refused to host: 127.0.0.1; nested excepti
         at MyRemoteImpl.main(MyRemoteImpl.java:10)
         
 Caused by: java.net.ConnectException: Connection refused: connect
+
         at java.base/sun.nio.ch.Net.connect0(Native Method)
         at java.base/sun.nio.ch.Net.connect(Net.java:576)
         at java.base/sun.nio.ch.Net.connect(Net.java:565)
